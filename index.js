@@ -11,7 +11,7 @@ const paragraphs = document.querySelectorAll(".bottom p");
 function conversion(unitA, unitB, unit) {
     const userInput = Number(document.getElementById("userInput").value)
     unit *= userInput
-    return `${userInput} ${unitA} = ${unit.toFixed(3)} ${unitB} | ${unit.toFixed(3)} ${unitB} = ${userInput} ${unitA}`
+    return `${userInput} ${unitA} = ${unit.toFixed(3)} ${unitB}`
 }
 
 function unitConversion() {
